@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.15
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InProcKestrel", "InProcKestrel\InProcKestrel.csproj", "{45569D26-8FB1-4075-8A52-644A6320C356}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InProcKestrel", "InProcKestrel\InProcKestrel.csproj", "{45569D26-8FB1-4075-8A52-644A6320C356}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InProcKestrel.WebTests", "InProcKestrel.WebTests\InProcKestrel.WebTests.csproj", "{F83939EC-65B2-4DF7-BA45-CA658FEE014F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InProcKestrel.WebTests", "InProcKestrel.WebTests\InProcKestrel.WebTests.csproj", "{F83939EC-65B2-4DF7-BA45-CA658FEE014F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InProcKestrel.WebTests.OldProjectFormat", "InProcKestrel.WebTests.OldProjectFormat\InProcKestrel.WebTests.OldProjectFormat.csproj", "{6FCEC49A-19C9-429C-B71F-805D50A0DB71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{F83939EC-65B2-4DF7-BA45-CA658FEE014F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F83939EC-65B2-4DF7-BA45-CA658FEE014F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F83939EC-65B2-4DF7-BA45-CA658FEE014F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FCEC49A-19C9-429C-B71F-805D50A0DB71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FCEC49A-19C9-429C-B71F-805D50A0DB71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FCEC49A-19C9-429C-B71F-805D50A0DB71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FCEC49A-19C9-429C-B71F-805D50A0DB71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C060DB82-23E3-4B52-8C5D-E3F0DF9B71E3}
 	EndGlobalSection
 EndGlobal
